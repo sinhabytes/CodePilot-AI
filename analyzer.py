@@ -2,7 +2,7 @@
 import ast, json, os, re
 import prompts
 
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 SECRET_RE = re.compile(r"(api[_-]?key|secret|password|token)\s*=\s*['\"][^'\"]{6,}['\"]", re.I)
 
 
